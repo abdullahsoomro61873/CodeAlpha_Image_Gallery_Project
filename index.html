@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gallery-container">
+        <div class="controls">
+            <div class="search-bar">
+                <input type="text" placeholder="Search images..." id="searchInput">
+            </div>
+            <div class="filter-buttons">
+                <button class="filter active" data-category="all">All</button>
+                <button class="filter" data-category="nature">Nature</button>
+                <button class="filter" data-category="city">City</button>
+                <button class="filter" data-category="people">People</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item" data-category="nature">
+                <img src="https://myhotposters.com/cdn/shop/products/mQ0269_large.jpeg?v=1748542664"
+                    alt="Nature Landscape">
+            </div>
+            <div class="gallery-item" data-category="city">
+                <img src="https://theplanetd.com/images/city-skylines-of-the-world-brisbane.jpg" alt="City Skyline">
+            </div>
+            <div class="gallery-item" data-category="people">
+                <img src="https://www.shutterstock.com/shutterstock/videos/3494180811/thumb/1.jpg?ip=x480"
+                    alt="Group of People">
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1507139722691-cc2c94e3a2b2?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zm9yZXN0JTIwcGF0aHxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Forest Path">
+            </div>
+            <div class="gallery-item" data-category="city">
+                <img src="https://media.istockphoto.com/id/1825147025/photo/financial-district-of-london.jpg?s=612x612&w=0&k=20&c=-AVvvRlce-ussXwMBfWP2Ls_ZAA7voCpd_4MvkVgyQE="
+                    alt="Urban Street">
+            </div>
+            <div class="gallery-item" data-category="people">
+                <img src="https://a-static.besthdwallpaper.com/keanu-reeves-from-john-wick-wallpaper-1024x576-106442_44.jpg"
+                    alt="Portrait">
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8NGslMjBtb3VudGFpbnxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Mountain Lake">
+            </div>
+            <div class="gallery-item" data-category="city">
+                <img src="https://toppng.com/uploads/preview/night-city-skyscrapers-city-lights-new-york-usa-night-clouds-11570447803d8atzj4aow.jpg"
+                    alt="Night City Lights">
+            </div>
+        </div>
+    </div>
+
+    <div class="lightbox">
+        <button class="close">×</button>
+        <button class="nav-button prev">❮</button>
+        <img src="" alt="Lightbox Image">
+        <button class="nav-button next">❯</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
